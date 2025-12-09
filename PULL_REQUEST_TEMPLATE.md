@@ -1,5 +1,7 @@
 # **Pull Request Template **
 
+## 🧾 **PR Title Format:** `PL-1234 | Short description`
+
 ## 📌 Summary
 
 Briefly describe **what** this PR changes and **why**.
