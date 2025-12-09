@@ -1,88 +1,46 @@
-# Pull Request
+# **Pull Request Template **
 
 ## 📌 Summary
-Provide a clear description of what this PR does and why it is needed.  
-Mention any architectural decisions, refactors, or design considerations if relevant.
 
----
+Briefly describe **what** this PR changes and **why**.
+
+## 🎫 Plane Ticket
+
+Add the **Plane ticket number** for this work:
+`Plane Ticket: PL-XXXX`
 
 ## 🔗 Related Issue
-Link to the related issue or ticket (if applicable).
 
----
+Link issue or internal tracking item (if any).
 
-## 🧪 Testing Steps
-Describe how you validated this change. Include manual + automated test details.
+## 🧪 Testing
 
-### **Laravel Validation**
-- Commands executed (e.g., `php artisan test`)
-- Any seeding or database pre-conditions
-- API / controller / job-level behavior verified
+Describe how you tested it:
 
-### **Filament UI Validation**
-- Screens/pages/forms tested  
-- Widgets/components verified  
-- Actions, tables, filters, exports tested  
-- Multi-tenant behavior validated (if applicable)
+* Laravel tests / commands
+* Filament UI checks (forms, tables, actions)
+* Jobs/queues or import/export flows (if applicable)
 
-### **Other Tests**
-- Queue/Job execution validated  
-- File uploads/import flows tested  
-- Background pipelines or schedulers tested  
+## 🔒 Security
 
----
+Confirm:
 
-## 🧯 Regression Surface
-List any areas that could be affected by this change and what you checked to ensure stability.
-
----
-
-## 🔒 Security Considerations
-- No sensitive data added  
-- No internal URLs/keys included  
-- No PHI or production identifiers  
-- All Laravel policies, gates, and RLS boundaries respected  
-- Input validation & sanitization reviewed  
-
----
+* No sensitive data added
+* No PHI or internal URLs
+* RLS / permissions / multi-tenant scoping respected
 
 ## 🧹 Checklist
 
-### **Code Quality**
-- [ ] Code follows Laravel & Filament conventions  
-- [ ] Code is readable, documented, and commented where needed  
-- [ ] No dead code or unused imports  
-- [ ] No debugging statements (`dd`, `dump`, `ray`, `logger` leftovers)
-
-### **Static Analysis & CI**
-- [ ] PHPStan passes (`vendor/bin/phpstan analyse`)  
-- [ ] Pint / formatting applied (`./vendor/bin/pint`)  
-- [ ] Tests pass locally  
-
-### **Laravel Application**
-- [ ] Migrations are idempotent and reversible  
-- [ ] Models/casts/factories updated if required  
-- [ ] Queued jobs retry behavior considered  
-- [ ] Config/env files NOT changed unless documented
-
-### **Filament Specific**
-- [ ] Filament Resources/Pages/RelationManagers tested  
-- [ ] Permissions/visibility rules confirmed  
-- [ ] Custom widgets or tables validated  
-- [ ] Multi-tenant scoping confirmed (if applicable)  
-- [ ] Exporters/actions tested for large datasets  
-
-### **Documentation & Release Notes**
-- [ ] README or internal docs updated (if needed)  
-- [ ] Changelog or release notes entry prepared (if applicable)  
-
-### **Final Review**
-- [ ] No breaking changes introduced  
-- [ ] PR title follows naming conventions  
-- [ ] Screenshots included for UI changes  
-- [ ] All acceptance criteria met  
-
----
+* [ ] Code clean & documented
+* [ ] PHPStan passes
+* [ ] Pint formatting applied
+* [ ] No debug code left
+* [ ] Migrations safe & reversible
+* [ ] Filament pages/actions validated
+* [ ] No breaking changes
 
 ## 📸 Screenshots (If UI-related)
-Attach before/after screenshots or GIFs to help reviewers understand the change.
+
+Add before/after screenshots.
+
+Just tell me!
