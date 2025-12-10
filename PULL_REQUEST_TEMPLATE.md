@@ -1,6 +1,6 @@
 # **Pull Request Template **
 
-## 🧾 **PR Title Format:** `PL-1234 | Short description`
+🧾 **PR Title Format:** `PL-1234 | Short description`
 
 ## 📌 Summary
 
@@ -44,5 +44,3 @@ Confirm:
 ## 📸 Screenshots (If UI-related)
 
 Add before/after screenshots.
-
-Just tell me!
