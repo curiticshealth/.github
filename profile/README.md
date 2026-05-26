@@ -6,39 +6,6 @@ We design and operate a multi-tenant healthcare data platform that brings togeth
 
 ---
 
-## 🛠️ Our Engineering Stack
-
-We work with a modern, pragmatic, and highly reliable stack designed for healthcare-grade systems:
-
-### **Backend & Application**
-- **Laravel / PHP 8+**
-- **FilamentPHP** for internal admin experiences
-- **Node.js** for selective services and automation
-- **Python** for data workflows and ETL tasks
-
-### **Data Platform**
-- **PostgreSQL** with **RLS**, advanced indexing, and multi-tenant isolation
-- **AWS Redshift** for analytical workloads
-- **S3-based ingest pipelines** for bulk file workflows
-- **Metabase & internal dashboards** for data observability
-
-### **Infrastructure**
-- **AWS (EC2, RDS, S3, SQS, SNS, Lambda, SES, CloudWatch)**
-- **Laravel Vapor** for serverless deployments
-- **Docker-based pipelines** for local + CI tooling
-- **Terraform/IaC adoption in progress**
-
-### **Frontend**
-- **TailwindCSS**, **Blade**, **HTMX**, **Alpine.js**
-- **Filament widgets** for complex internal UI modules
-
-### **AI & Automation**
-- LLM-assisted internal tooling  
-- Background data quality agents  
-- Automated ingestion + validation pipelines
-
----
-
 ## 🔒 Engineering Principles
 
 - **Security First**  
